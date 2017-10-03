@@ -3,7 +3,7 @@ from Driver import AggressiveDriver, ChillDriver
 from Car import Car
 
 
-car1 = Car(ChillDriver("Chris Dunlop", 130), 800, 40, 5)
+car1 = Car(ChillDriver("Chris Dunlop",130), 800, 40, 5)
 car2 = Car(AggressiveDriver("Ann Merriweather", 160), 400, 60, 7)
 
 env = Environment()
